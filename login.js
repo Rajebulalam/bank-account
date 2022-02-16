@@ -10,7 +10,7 @@ document.getElementById('login-btn').addEventListener('click', function () {
     // Taken User Password
     const passwordFeild = document.getElementById('password-field');
     const userPassword = passwordFeild.value;
-    emailFeild.value = '';
+    passwordFeild.value = '';
 
     // Lgin Condition
     if (userEmail == 'rajebulalam01@gmail.com' && userPassword == 'password') {
